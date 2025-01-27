@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>	
+*{
+    margin:0; padding: 0;  font-family: calibri; 
+}
+body{
+    background: rgb(230,217,182);
+}
+header{
+    position:absolute;
+    top:0; left:0;
+    width: 100%; 
+    background: linear-gradient(to right, rgb(48,131,151), rgb(155,36,161)); 
+}
+header a .img{
+    width:220px; height:70px; float:left;
+}
+header .menu{
+    float:right;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+header ul li{
+    display:inline-block;
+}
+header ul li a{
+    text-decoration:none;
+    font-size: 16px;
+    color:rgb(2,2,63);
+    margin:0 21px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid rgb(2,2,63); border-radius: 40px;
+    padding: 4px 7px; line-height: 40px;
+}
+header ul li a:hover{
+    background: rgb(2,2,63); color:rgb(230,217,182);
+}
+header ul li a:active{
+    background: black; color:rgb(230,217,182);
+}
+.about{
+    margin:0 80px; margin-top:100px;
+}
+.msg{
+    margin:0 80px; 
+    margin-top: 80px;
+    width:fit-content;
+    background:rgba(0,0,0,0.2);
+    padding:1em;
+}
+.msg h3{
+    font-size:25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.msg p{
+    font-weight: bold;
+}
+.msg input{
+    width:100%;
+}
+.msg input.btn{
+    border-radius:6px;
+    width:100%;
+    margin-top:20px;
+    min-height:21px;
+    border:1px solid rgb(48,131,151);
+    color:white;
+    background:rgb(48,131,151);
+}
+.share-f{
+    margin:0 80px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.share{
+    margin:0 80px;
+    display:flex;
+    width:fit-content;
+    padding-top: 10px;
+}
+.gmail img{
+    width:40px;
+    height:40px;
+    margin-right:1em;
+    border-radius:6px;
+}
+.facebook img{
+    width:40px;
+    height:40px;
+    border-radius:6px;
+}
+.whatsapp img{
+    width:40px;
+    height:40px;
+    margin-right:1em;
+    border-radius:6px;
+}
+.block{
+    width:300px;
+    height:100px;
+}
+#footer{
+    width:100%; height: 40px; 
+    background:linear-gradient(to right,rgb(48,131,151), rgb(155,36,161));
+    font-size: 20px;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    font-weight:bold;
+    color:rgb(230,217,182);
+}
+</style>
+
+</head>
+<body>
+        <header>
+            <a href="#"><img class="img" src="img/Logo 1.png"></a>
+            <div class="menu">
+                <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Faq</a></li>
+                </ul>
+            </div>
+        </header>
+
+	<div class="msg">
+	<h3>Send us a message</h3>
+	<form>
+	<p>Name</p>
+	<input type="text" name="">
+	<p>Email</p>
+	<input type="email" name="">
+	<p>Message</p>
+	<textarea cols="29" rows="7"></textarea><br>
+    <input class="btn" type="submit" name="" value="Send">
+	</form>
+	</div>
+
+    <p class="share-f">We are also available on the following platforms</p>
+
+    <div class="share">
+        <div class="gmail"><a href="#"><img src="img/mail.png"></a></div>
+        <div class="whatsapp"><a href="#"><img src="img/whats.png"></a></div>
+        <div class="facebook"><a href="#"><img src="img/fb.png"></a></div>
+    </div>
+
+    <div class="block">
+
+    </div>
+
+<footer>
+    <div id="footer"><p>Copywright &copy; 2022 Champion Victory Foundation.com | Sponsored By The Ministry of social development and gender issue</p></div>
+</footer>
+</body>
+</html>
